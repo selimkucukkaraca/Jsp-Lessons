@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jspTags:war">
+    <output-path>$PROJECT_DIR$/jspTags/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jspTags</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jspTags-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jspTags:war exploded" />
+    </root>
+  </artifact>
+</component>
